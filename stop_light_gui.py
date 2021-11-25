@@ -5,17 +5,7 @@ from functools import partial
 import traceback, sys
 import paramiko
 import time
-#command = "ls"
-# host = '192.0.0.200'
-# username = 'rsu'
-# password = 'rsuadmin'
-# host = '192.168.0.4'
-# username = 'joshjet'
-# password = 'jet12345'
-# port = 22
-#ssh = paramiko.SSHClient()
-#ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-#ssh.connect(host, port, username, password)
+
 
 class WorkerSignals(QObject):
     '''
